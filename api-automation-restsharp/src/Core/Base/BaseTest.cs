@@ -1,6 +1,6 @@
-using ApiAutomationRestSharp.Clients;
+using Clients;
 
-namespace ApiAutomationRestSharp.Core.Base;
+namespace Core.Base;
 
 public class BaseTest : ReqResClient
 {

@@ -100,3 +100,4 @@ C:\Users\letic\OneDrive\Documentos\Repositórios\Automation\RestSharp\api-automa
 C:\Users\letic\OneDrive\Documentos\Repositórios\Automation\RestSharp\api-automation-restsharp\obj\Debug\net10.0\api-automation-restsharp.pdb
 C:\Users\letic\OneDrive\Documentos\Repositórios\Automation\RestSharp\api-automation-restsharp\obj\Debug\net10.0\api-automation-restsharp.genruntimeconfig.cache
 C:\Users\letic\OneDrive\Documentos\Repositórios\Automation\RestSharp\api-automation-restsharp\obj\Debug\net10.0\ref\api-automation-restsharp.dll
+C:\Users\letic\OneDrive\Documentos\Repositórios\Automation\RestSharp\api-automation-restsharp\obj\Debug\net10.0\api-automation-restsharp.sourcelink.json

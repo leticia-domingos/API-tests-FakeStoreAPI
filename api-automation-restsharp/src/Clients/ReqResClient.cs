@@ -2,7 +2,7 @@
 // Encapsula o RestSharp.
 using RestSharp;
 
-namespace ApiAutomationRestSharp.Clients;
+namespace Clients;
 
 public class ReqResClient{
     protected string ApiKey { get; } = "reqres_94b85a574fa84547ba21c6a2082617ee";

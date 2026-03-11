@@ -1,5 +1,5 @@
 
-namespace ApiAutomationRestSharp.Routes
+namespace Routes
 {  
     public static class Endpoints
         {

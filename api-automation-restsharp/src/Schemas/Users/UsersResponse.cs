@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace ApiAutomationRestSharp.Schemas;
+namespace Schemas;
 
 public class UsersResponse
 {
