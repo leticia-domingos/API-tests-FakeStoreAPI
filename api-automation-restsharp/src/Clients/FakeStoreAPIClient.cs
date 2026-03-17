@@ -2,9 +2,8 @@ using RestSharp;
 
 namespace Clients;
 
-public class ReqResClient{
-    protected string ApiKey { get; } = "reqres_94b85a574fa84547ba21c6a2082617ee";
-    protected Uri BaseAddress { get; } = new Uri("https://reqres.in/api/");
+public class FakeStoreAPIClient{
+    protected Uri BaseAddress { get; } = new Uri("https://fakestoreapi.com/");
 
     protected RestClient GetRestClient()
     {
@@ -15,7 +14,6 @@ public class ReqResClient{
         };
         
         var client = new RestClient(options);
-        client.AddDefaultHeader("x-api-key", ApiKey);
         return client;
     }
 }

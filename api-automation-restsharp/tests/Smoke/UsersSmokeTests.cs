@@ -3,6 +3,7 @@ using Routes;
 using Core.Base;
 using System.Net;
 using FluentAssertions;
+using Xunit;
 
 
 namespace Tests.Smoke

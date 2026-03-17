@@ -2,13 +2,13 @@ using Clients;
 
 namespace Core.Base;
 
-public class BaseTest : ReqResClient
+public class BaseTest : FakeStoreAPIClient
 {
-    protected readonly ReqResClient reqResClient;
+    protected readonly FakeStoreAPIClient fakeStoreAPIClient;
 
     public BaseTest()
     {
-        reqResClient = new ReqResClient();
+        fakeStoreAPIClient = new FakeStoreAPIClient();
     }
 }
 
