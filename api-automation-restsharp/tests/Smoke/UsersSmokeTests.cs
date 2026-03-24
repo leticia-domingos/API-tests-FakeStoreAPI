@@ -3,15 +3,13 @@ using Routes;
 using Core.Base;
 using System.Net;
 using FluentAssertions;
-using Xunit;
-
 
 namespace Tests.Smoke
 {
     public class UsersSmokeTests : BaseTest
     {
         [Fact]
-        public void GetUser_Deve_Retornar_Sucesso()
+        public void GetUser_QuandoRequisicaoForValida_DeveRetornarSucesso()
         {
             // Arrange
             var client = GetRestClient();
